@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Absolute position</title>
+    <style>
+      .box {
+       border:1px solid blue;
+       display:inline-block;
+       width:200px;
+       heigth:200px;
+       margin:2px;
+     }
+     #box2 {
+      position:absolute;
+      top:10px;
+      left:10px;
+     }
+    </style>
+ </head>
+ <body>
+   <div class="box" id="box2"></div>
+  </body>
+ </html>
+    
